@@ -1,0 +1,41 @@
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+body {
+  background-color: whitesmoke;
+}
+button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 2px 2px 2px red;
+  background: linear-gradient(to left, lime, cyan);
+  box-shadow: 0 0 70px lightgreen, 0 0 70px lightgreen, 0 0 70px lightgreen;
+  border-radius: 50px;
+  position: relative;
+  top: 1vh;
+  left: 1vw;
+  cursor: pointer;
+}
+.header {
+  font-size: 60px;
+  font-family: sans-serif;
+  position: relative;
+  top: 15vh;
+  left: 20vw;
+  text-shadow: 5px 5px lightgrey;
+}
+.solution {
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  position: relative;
+  top: 10vh;
+  left: 11vw;
+  text-shadow: 3px 3px lightgrey;
+}
